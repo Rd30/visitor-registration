@@ -1,0 +1,259 @@
+﻿.land-div h1, .land-div h2 {
+  font-family: "Times New Roman", Times, serif;
+  color : #001f3f;
+  text-align: center;
+  margin: 50px;
+  font-weight: bold;
+}
+
+.land-div h1 {
+  font-size: 50px;
+}
+
+.land-div h2 {
+  color : #b31a1b !important;
+}
+
+.land-div img {
+  width : 700px;
+  margin: 40px;
+}
+
+.title-case {
+  text-transform:capitalize;
+}
+
+.success img {
+  width : 350px !important;
+}
+
+.regFormNav img {
+  margin-left: -36px;
+}
+
+.regFormNav h2 {
+  float: left;
+  margin-left: 100px;
+  color: #001f3f;
+}
+
+.navbar span {
+  font-family: "Times New Roman", Times, serif;
+  color: #000063;
+  text-align: center;
+  margin: 50px;
+  font-weight: bold;
+}
+
+.check-remember {
+  margin-top: -29px;
+}
+
+.form-check {
+  padding-left: 37px;
+}
+
+.form-check-label {
+  color: #495057;
+}
+
+.btn {
+  margin:auto;
+  display:block;
+  background-color: #52bad5;
+  font-size: 24px;
+  border: none;
+}
+
+.startBtn {
+  width: 40%;
+}
+
+.registerBtn {
+  width: 100%;
+}
+
+.dismissBtn {
+  width: 50%;
+}
+
+.btn:disabled {
+  background-color: #52bad5;
+}
+
+.btn:hover {
+  background-color: #2c9ab7;
+  color: white;
+}
+
+.form-div {
+  display: none;
+}
+
+.modal-body label {
+  text-align: center;
+  font-weight: bold;
+}
+
+.modal-body input {
+  font-weight: bold;
+}
+
+.modal-header h4 {
+  text-align: center;
+  color : #001f3f !important;
+  line-height: 6px;
+  padding-left:260px;
+}
+
+.modal-content {
+  width: 104%;
+}
+
+.modalBtn {
+  color:#EBEBEB;
+}
+
+.result p, .deptResult p {
+  margin: 0;
+  padding: 7px 10px;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  cursor: pointer;
+  background-color: #52bad5;
+  color:#fff;
+}
+
+.result p:last-child {
+  margin-bottom :23px;
+}
+
+.result p:hover, .result p:focus, .deptResult p:hover, .deptResult p:focus{
+  background-color: #001f3f;;
+  color:#fff;
+}
+
+.result p.active, .deptResult p.active {
+  background-color: #001f3f;;
+  color:#fff;
+}
+
+.custom-select option:hover {
+    box-shadow: 0 0 10px 100px #52bad5 inset;
+    background-color: #52bad5;  /* #007bff; */
+}
+
+.modalAlert {
+  text-align: center;
+  font-weight: bold;
+}
+
+.new-reg-btn {
+  color: #fff;
+  background-color: #545b62;
+  border-color: #4e555b;
+  font-size: 19px;
+  width: 22%;
+}
+
+.successResponse {
+  margin-top: 30px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.dismiss-visitor-body {
+  background-color: #2C363F;
+}
+
+.dismiss-visitor-title {
+  padding-left: 32%;
+}
+
+.dismissVisitorForm label, .dismissVisNav h2 {
+  color: aliceblue;
+}
+
+.dismissVisNav img {
+  margin-left: 34px;
+}
+
+h2.idIcon:before {
+ font-family: FontAwesome;
+ display: inline-block;
+ padding-right: 0.625rem;
+ font-size: 3rem;
+}
+
+h2.idIcon:before{
+  content: "\f2bc";
+}
+
+.dismiss-alert, .msgBox {
+  text-align: center;
+  font-weight: bold;
+}
+
+.bootstrap-datetimepicker-widget table td span {
+  width: 0px !important;
+}
+
+.glyphicon-chevron-down:before, .glyphicon-chevron-up:before {
+  margin-left: -10px;
+}
+
+div.checkIcon:before,
+div.exclamation:before{
+   font-family: FontAwesome;
+   display: inline-block;
+   padding-right: 10px;
+   font-size: 20px;
+}
+
+div.exclamation:before{
+  content: "\f071";
+}
+
+div.checkIcon:before{
+  content: "\f14a";
+}
+
+input[type="text"]::-webkit-input-placeholder {
+  color: #b31a1b; !important;
+}
+
+input[type="text"]:-moz-placeholder { /* Firefox 18- */
+  color: #b31a1b; !important;
+}
+
+input[type="text"]::-moz-placeholder {  /* Firefox 19+ */
+  color: #b31a1b; !important;
+}
+
+input[type="text"]:-ms-input-placeholder {
+  color: #b31a1b; !important;
+}
+
+input[type="text"]{
+  color: #b31a1b;
+}
+
+.fa-search {
+  color: #52bad5;
+  position: absolute;
+  top: 6px;
+  right: 25px;
+  font-size: 27px;
+}
+
+#loader{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0,255,0,0.1) url("http://nd-force.entegris.com/visitorRegistration/img/loading.gif") no-repeat center center;
+  z-index: 10000;
+}
